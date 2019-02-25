@@ -1,0 +1,38 @@
+h3 {
+    text-align: center;
+    text-shadow: 4px 7px #6f2f2f
+}
+p {
+    text-align: center;
+    font-family: monospace;
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:solid #91274F; 
+  width: 300px;
+  padding: 6px;
+}
+body {
+    background-color: #73ffde
+}
+table, th, td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    color: white;
+}
+td {
+    text-align: center;
+}
+caption {
+    font-family: cursive;
+    color: red;
+    text-shadow: 5px 5px #2860F7
+}
+table#Texas{
+    background-color: black
+}
+
