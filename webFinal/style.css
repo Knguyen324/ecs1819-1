@@ -7,3 +7,9 @@
 #background {
     background-color:#23E6FA;
 }
+#Left {
+    float: left;
+}
+#center {
+    float: center;
+}
