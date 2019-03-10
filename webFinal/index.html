@@ -7,7 +7,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
     </head>
-    <body id="background">
+    <!-- title and navbar -->
+    <body id="gradientcolor">
         <div class="container-fluid">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <ul class="navbar-nav">
@@ -22,38 +23,99 @@
             </li>
             </ul>
         </nav>
-        <div class="container">
+        <div class="container-fluid">
             <div class="jumbotron" id="color">
                 <h1 id="jumbotron">Game and shop</h1>
                 <p id="jumbotron">A Gaming lounge where you can shop</p>
             </div>
             <hr>
+            <!-- About me -->
         <h1>
             About Me:
         </h1>
-        <p> I am a person who is really interested in the world of gaming. Gaming has gotten more popular over the year and I want people to learn and know more about each other in this world so I decided to create a gaming lounge along an online shop to get their gears.</p>
+        <p class="jumbotron" id="text"> I am a person who is really interested in the world of gaming. Gaming has gotten more popular over the year and I want people to learn and know more about each other in this world so I decided to create a gaming lounge along an online shop to get their gears.</p>
+            <!-- Informations -->
          <div class="container-fluid">
             <div class="row">
-            <div class="col-lg-4">
-                 <img src="http://images.mmorpg.com/features/7578/images/Davis-Jul11-2_t.jpg" width="" alt="Gaming lounge">
+            <div class="col-lg-4">  
+             <div id="demo" class="carousel slide" data-ride="carousel">
+              <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+              </ul>
+         <!-- The slideshow -->
+             <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="images/Gaming.jpg" alt="Lounge"  width="500">
+             </div>
+             <div class="carousel-item">
+               <img src="images/Gaming (1).jpg" alt="Arcade"  width="500">
+             </div>
+             <div class="carousel-item">
+               <img src="images/Game.jpeg" alt="Second Lounge" width="500">
+             </div>
+             <div class="carousel-item">
+               <img src="images/Bar.jpg" alt="Lounge Bar" wdith="500">
+             </div>
+             </div>
+           <!-- Left and right controls -->
+             <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              </a>
+             <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+             </a>
+            </div>
             </div>
             <div class="col-lg-8">
                 <div class="jumbotron" id="background">
+                     <p> This place is consists of many different gaming lounge for hundreds of people to connect with each other and either play for fun or competitively. There is even a bar for you to enjoy and rest after long periods of gaming. If you are those kind of people who enjoy arcade games then this is also the place for you! There is an arcade room full of the older games that you love when you were young and technology were not as good.</p>
             </div>
             </div>
          </div>
          <hr>
          <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8">
-                <div class="jumbotron" id="background">
-                 <p>
-                 </p>
-            <div class="col-lg-4">
-                 <img src="#" alt="Headphones">
+            <div class="col-lg-8">
+                 <div class="jumbotron" id="background">
+                     <p>While planning a time to go to this gaming lounge online, you can even shop here too! With many of the recent and and improve gaming headphones and gears that you can buy, there are also gaming figures for you to decorate your room with.</p>
+                 </div>
             </div>
             </div>
          </div>
+            <div class="col-lg-4" float="right">
+            <div id="Game" class="carousel slide" data-ride="carousel" float="right">
+              <ul class="carousel-indicators">
+              <li data-target="#Game" data-slide-to="0" class="active"></li>
+              <li data-target="#Game" data-slide-to="1"></li>
+              <li data-target="#Game" data-slide-to="2"></li>
+              <li data-target="#Game" data-slide-to="3"></li>
+              </ul>
+         <!-- The slideshow -->
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="images/Headset.jpg" alt="Headet"  width="300">
+            </div>
+            <div class="carousel-item">
+               <img src="images/Monitor.png" alt="Monitor"  width="300">
+            </div>
+            <div class="carousel-item">
+               <img src="images/Keyboard.jpg" alt="Keyboard" width="300">
+            </div>
+            <div class="carousel-item">
+               <img src="images/Figure.png" alt="Figure" width="300">
+            </div>
+            </div>
+           <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#Game" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#Game" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+            </div>
     </body>
     
 </html>

@@ -7,9 +7,17 @@
 #background {
     background-color:#23E6FA;
 }
-#Left {
-    float: left;
+#image {
+    background-image: url("images/Predator.jpg");
 }
-#center {
-    float: center;
+#gradientcolor {
+     background-image: linear-gradient(red, yellow);
+}
+#title {
+    font-family: cursive;
+    font-size: 45 px;
+}
+#text {
+    font-family: sans-serif;
+    font-size: 50 px;
 }
