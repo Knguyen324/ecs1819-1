@@ -7,3 +7,18 @@
 #background2 {
     background-image: linear-gradient(#FF0606,#FFA2A2);
 }
+#Text {
+    font-family: Akronim; font-size: 50px
+}
+.element {
+  animation: pulse 7s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
